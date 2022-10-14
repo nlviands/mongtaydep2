@@ -1,13 +1,13 @@
 {
-  "name": "rocketman",
+  "name": "mongtaydep",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "js": "parcel watch frontend/js/src/index.js --out-dir rocketman/static/js/ --no-hmr",
-    "js:prod": "parcel build frontend/js/src/index.js --out-dir rocketman/static/js/ --no-cache --no-source-maps",
-    "sass": "parcel watch frontend/scss/bootstrap.scss --out-dir rocketman/static/css/ --no-hmr",
-    "sass:prod": "parcel build frontend/scss/bootstrap.scss --out-dir rocketman/static/css/ --no-cache --no-source-maps",
+    "js": "parcel watch frontend/js/src/index.js --out-dir mongtaydep/static/js/ --no-hmr",
+    "js:prod": "parcel build frontend/js/src/index.js --out-dir mongtaydep/static/js/ --no-cache --no-source-maps",
+    "sass": "parcel watch frontend/scss/bootstrap.scss --out-dir mongtaydep/static/css/ --no-hmr",
+    "sass:prod": "parcel build frontend/scss/bootstrap.scss --out-dir mongtaydep/static/css/ --no-cache --no-source-maps",
     "prod": "npm run js:prod && npm run sass:prod",
     "watch": "npm run js & npm run sass"
   },
@@ -25,5 +25,5 @@
     "sass": "^1.17.2"
   },
   "devDependencies": {},
-  "author": "Kalob Taulien"
+  "author": "Norm Viands"
 }
